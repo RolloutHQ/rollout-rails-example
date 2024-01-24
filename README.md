@@ -1,24 +1,23 @@
-# README
+# Rollout with Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This example shows how to use Rollout with [Ruby on Rails](https://rubyonrails.org/).
 
-Things you may want to cover:
+## Instructions
 
-* Ruby version
+1. Define environment variables in `.env` file.
 
-* System dependencies
+2. Install dependencies:
 
-* Configuration
+```sh
+bundle install
+```
 
-* Database creation
+3. Run Rails locally:
 
-* Database initialization
+```sh
+bin/rails server
+```
 
-* How to run the test suite
+## License
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+MIT License
