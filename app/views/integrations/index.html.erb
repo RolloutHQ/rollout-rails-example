@@ -1,0 +1,12 @@
+<h1>Integrations#index</h1>
+<div id="rollout-container"></div>
+
+<script src="https://unpkg.com/@rollout/connect-react-dist@latest"></script>
+<script>
+  const container = document.getElementById("rollout-container");
+  const apiBaseUrl = "http://localhost:3300/api";
+  const token = "<%= @rollout_token %>";
+  window.Rollout.defaultTheme();
+  const ro = window.Rollout.init({token, apiBaseUrl });
+  ro.renderAutomationsManager(container);
+</script>
